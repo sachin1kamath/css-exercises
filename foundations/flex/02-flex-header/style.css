@@ -14,19 +14,20 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  flex: 2;
+  margin: 20px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   flex: 1;
   justify-content: space-between;
+  gap: 10px;
 }
 
 a {
@@ -38,12 +39,14 @@ a {
 }
 
 .left-links {
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-self: flex-start;
 }
 
 .right-links {
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-self: flex-end;
